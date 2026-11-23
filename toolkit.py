@@ -89,3 +89,5 @@ print(f"On hand: {sample_sku['on_hand']} boxes\nDays of supply: {days} · {statu
 section()
 print(f"Landed cost per unit: ${round(landed_cost,2)} (quote ${sample_sku['unit_price']}, +{increase_vs_price_pct}%)")
 division()
+
+print(%who)
